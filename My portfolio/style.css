@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-style: italic;
+}
+
+/* Setting default font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the hero section */
+.hero {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Styling the navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav
+{
+    background-color: pink;
+    width: 100%;
+    padding: 20px;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Styling the main section */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 50px auto;
+}
+.girl {
+    width: 150px;
+    border-radius: 30%;
+    margin-bottom: 20px;
+    width: 250px;
+    
+}
+.main-detil {
+    text-align: center;
+}
+h1, h4 {
+    margin: 5px 0;
+}
+.description {
+    margin-bottom: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Styling the sections */
+section {
+    margin-top: 50px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the projects */
+.project {
+    margin-top: 30px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 50px auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  
+  
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#projects {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.project {
+    width: 30%; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    display: block;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 0;
+}
+
+
+/* Styling the footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
